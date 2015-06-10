@@ -1,0 +1,40 @@
+eyelist.org
+
+Eyelist is a access system that uses face detection to notify the owners of premises when specific people walk in. Probably will be at eyelist.org 
+Can be used for organisational security, home access control, events, etc.
+
+my ip
+----
+Saturday: 192.168.7.17
+Wednesday: 192.168.20.147
+
+
+wachira ip
+----
+192.168.2.138
+
+Philip's Repo
+----
+https://github.com/its2mc/openCVBuildathon
+
+
+Typical process in my comp:
+
+1. Screen the port connecting to the edison: 
+	*NB - THE A903BX30 IS UNIQUE TO MY MACHINE ONLY!
+
+	screen /dev/cu.usbserial-A903BX30 115200 -L
+
+2. Press enter twice and log in:
+	username: root
+	password: techytimo
+
+2. Configure WiFi *only* and get the edison connected
+
+	configure_edison --setup
+
+3. Get to work. You can now log into the edison from anywhere else
+	
+	ssh root@192.168.20.147
+
+	...the password is techytimo 
